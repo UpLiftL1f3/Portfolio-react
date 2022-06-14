@@ -13,6 +13,7 @@ import art from './images/art.jpg';
 import stars from './images/stars.jpg';
 import icon from '../components/assets/github.png';
 import { Container } from '@mui/system';
+import './css/portfolio.css';
 
 const data = [
   {
@@ -62,89 +63,80 @@ const data = [
 
 export default function Portfolio() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        margin: 15,
-      }}
-    >
-      <Container maxWidth="sm">
-        <Typography
-          component="h1"
-          variant="h2"
-          align="center"
-          color="text.primary"
-          gutterBottom
-        >
-          Past Projects
-        </Typography>
-        <Typography
-          variant="h5"
-          align="center"
-          color="text.secondary"
-          paragraph
-        >
-          Here are a few of my latest projects I've worked on
-        </Typography>
-      </Container>
+    <div id="div">
+      <div id="pageContainer">
+        <Container maxWidth="sm">
+          <Typography
+            component="h1"
+            variant="h2"
+            align="center"
+            color="text.primary"
+            gutterBottom
+          >
+            Past Projects
+          </Typography>
+          <Typography
+            variant="h5"
+            align="center"
+            color="text.secondary"
+            paragraph
+          >
+            Here are a few of my latest projects I've worked on
+          </Typography>
+        </Container>
 
-      <section
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-          margin: 15,
-        }}
-      >
-        {data.map((project) => (
-          <Card sx={{ maxWidth: 345 }} style={{ width: 500, marginRight: 20 }}>
-            <a href={project.link} target="_blank" style={{ color: 'black' }}>
-              <CardMedia
-                component="img"
-                style={{ height: 200 }}
-                image={project.img}
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography
-                  variant="h5"
-                  color="text.primary"
-                  style={{
-                    fontWeight: 'bolder',
-                    fontSize: 25,
-                    textAlign: 'center',
-                    borderBottom: 'solid',
-                    marginBottom: 10,
-                  }}
-                >
-                  {project.projectName}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="text.primary"
-                  style={{ fontWeight: 'bolder', fontSize: 15 }}
-                >
-                  {project.description}
-                </Typography>
-              </CardContent>
+        <section id="cardContainer">
+          {data.map((project) => (
+            <Card
+              sx={{ maxWidth: 345 }}
+              style={{ width: 500, marginRight: 20 }}
+            >
+              <a href={project.link} target="_blank" style={{ color: 'black' }}>
+                <CardMedia
+                  component="img"
+                  style={{ height: 200 }}
+                  image={project.img}
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography
+                    variant="h5"
+                    color="text.primary"
+                    style={{
+                      fontWeight: 'bolder',
+                      fontSize: 25,
+                      textAlign: 'center',
+                      borderBottom: 'solid',
+                      marginBottom: 10,
+                    }}
+                  >
+                    {project.projectName}
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="text.primary"
+                    style={{ fontWeight: 'bolder', fontSize: 15 }}
+                  >
+                    {project.description}
+                  </Typography>
+                </CardContent>
 
-              <CardActions>
-                <Button
-                  size="small"
-                  href={project.git}
-                  target="_blank"
-                  className={{ display: 'flex', justifyContent: 'center' }}
-                >
-                  <img src={icon} style={{ height: 40 }} alt="img"></img>
-                </Button>
-                <h1>{project.description2}</h1>
-              </CardActions>
-            </a>
-          </Card>
-        ))}
-      </section>
+                <CardActions>
+                  <Button
+                    size="small"
+                    href={project.git}
+                    target="_blank"
+                    className={{ display: 'flex', justifyContent: 'center' }}
+                  >
+                    <img src={icon} style={{ height: 40 }} alt="img"></img>
+                  </Button>
+                  <h1>{project.description2}</h1>
+                </CardActions>
+              </a>
+            </Card>
+          ))}
+        </section>
+      </div>
     </div>
   );
 }
