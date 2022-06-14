@@ -36,19 +36,17 @@ const MobileNav = ({ isOpen, toggle }) => {
         </div>
         {/* Overlay content */}
         <div className="overlay-content">
-          <a href="/" onClick={toggle}>
-            Home
-          </a>
-          <a href="/portfolio" onClick={toggle}>
+          <a href="/portfolio" onClick={toggle} rel="noopener">
             Portfolio
           </a>
-          <a href="/add" onClick={toggle}>
-            Add
+          <a href="/resume" onClick={toggle} rel="noopener">
+            Resume
           </a>
-          <a href="/login" onClick={toggle}>
-            Login
+          <a href="/contact" onClick={toggle} rel="noopener">
+            Contact Info
           </a>
-          <a href="/about" onClick={toggle}>
+
+          <a href="/about" onClick={toggle} rel="noopener">
             About
           </a>
         </div>

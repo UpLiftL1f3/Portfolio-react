@@ -25,15 +25,30 @@ const NavBar = ({ toggle }) => {
           Portfolio
         </a>
 
-        <a style={{ color: 'black' }} href="/resume" className="mr-3 ml-3">
+        <a
+          style={{ color: 'black' }}
+          href="/resume"
+          className="mr-3 ml-3"
+          rel="noopener"
+        >
           Resume
         </a>
 
-        <a style={{ color: 'black' }} href="/contact" className="mr-3 ml-3">
+        <a
+          style={{ color: 'black' }}
+          href="/contact"
+          className="mr-3 ml-3"
+          rel="noopener"
+        >
           Contact Info
         </a>
 
-        <a style={{ color: 'black' }} href="/about" className="mr-3 ml-3">
+        <a
+          style={{ color: 'black' }}
+          href="/about"
+          className="mr-3 ml-3"
+          rel="noopener"
+        >
           About
         </a>
       </nav>
