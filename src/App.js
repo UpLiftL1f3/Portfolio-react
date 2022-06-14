@@ -19,11 +19,11 @@ function App() {
       <MobileNav isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Portfolio-react" element={<About />} />
+        <Route path="/Portfolio-react/portfolio" element={<Portfolio />} />
+        <Route path="/Portfolio-react/contact" element={<Contact />} />
+        <Route path="/Portfolio-react/resume" element={<Resume />} />
+        <Route path="/Portfolio-react/about" element={<About />} />
       </Routes>
       <Footer />
     </Router>
