@@ -53,7 +53,12 @@ function about() {
           justifyContent: 'center',
         }}
       >
-        <img src={profilePic} alt="sign" className="center"></img>
+        <img
+          src={profilePic}
+          alt="sign"
+          className="center"
+          style={{ marginBottom: 30 }}
+        ></img>
       </div>
     </div>
   );
