@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.893a9c4f.css",
+    "main.js": "/Portfolio-react/static/js/main.8e8217c3.js",
+    "static/media/stars.jpg": "/Portfolio-react/static/media/stars.1850caf7a0ca020b91f1.jpg",
+    "static/media/mountain.jpg": "/Portfolio-react/static/media/mountain.4085df4f88069da38ed4.jpg",
+    "static/media/beach.jpg": "/Portfolio-react/static/media/beach.74d50d7bf3da31cdb984.jpg",
+    "static/media/leaf.jpg": "/Portfolio-react/static/media/leaf.5da58ef376fd44f91857.jpg",
+    "static/media/dog.jpg": "/Portfolio-react/static/media/dog.df4244c36cd6815e925e.jpg",
+    "static/media/art.jpg": "/Portfolio-react/static/media/art.ca1673308f67ec45c8ac.jpg",
+    "static/media/myresume1.jpg": "/Portfolio-react/static/media/myresume1.32fda685da2d104ec956.jpg",
+    "static/media/resume2.jpg": "/Portfolio-react/static/media/resume2.6631de472e74e4d4560e.jpg",
+    "static/media/MyResume.pdf": "/Portfolio-react/static/media/MyResume.f5f8676cbd8caedac788.pdf",
+    "static/media/github.png": "/Portfolio-react/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/profilePic.jpg": "/Portfolio-react/static/media/profilePic.5e107c26bd2b30d5bbd9.jpg",
+    "index.html": "/Portfolio-react/index.html",
+    "main.893a9c4f.css.map": "/Portfolio-react/static/css/main.893a9c4f.css.map",
+    "main.8e8217c3.js.map": "/Portfolio-react/static/js/main.8e8217c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.893a9c4f.css",
+    "static/js/main.8e8217c3.js"
+  ]
+}
