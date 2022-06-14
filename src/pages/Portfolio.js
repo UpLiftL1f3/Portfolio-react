@@ -89,7 +89,7 @@ export default function Portfolio() {
           {data.map((project) => (
             <Card
               sx={{ maxWidth: 345 }}
-              style={{ width: 500, marginRight: 20 }}
+              style={{ width: 500, marginRight: 20, marginTop: 20 }}
             >
               <a href={project.link} target="_blank" style={{ color: 'black' }}>
                 <CardMedia
