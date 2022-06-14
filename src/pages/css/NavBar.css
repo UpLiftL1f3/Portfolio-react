@@ -1,0 +1,29 @@
+header {
+  position: sticky;
+  background-color: rgb(242, 242, 242);
+  top: 0;
+  z-index: 999;
+  height: 80px;
+}
+
+#title {
+  color: 'black';
+  margin-left: 6%;
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+.pancake {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #desktopNav {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pancake {
+    display: none;
+  }
+}
