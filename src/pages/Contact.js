@@ -25,7 +25,7 @@ const Contact = (props) => {
           <br />
           <textarea name="message" required type="text"></textarea>
           <br />
-          <button>SUBMIT</button>
+          <button className="button is-dark">SUBMIT</button>
 
           <div className="row"></div>
         </div>
